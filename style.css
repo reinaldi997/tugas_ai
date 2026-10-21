@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; background: #f2f4f8; margin: 0; padding: 20px; text-align: center; }
+.container { max-width: 480px; margin: auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+h1 { margin-top: 0; }
+.buttons { display: flex; gap: 10px; justify-content: center; margin: 15px 0; }
+button, .btn { background: #2563eb; color: #fff; border: 0; padding: 10px 16px; border-radius: 8px; cursor: pointer; font-size: 15px; }
+button:hover, .btn:hover { background: #1d4ed8; }
+#preview { margin: 10px 0; }
+#preview img, #preview canvas { max-width: 100%; border-radius: 8px; }
+#status { color: #666; margin: 10px 0; }
+.bar-row { text-align: left; margin: 8px 0; }
+.bar { background: #e5e7eb; border-radius: 6px; overflow: hidden; height: 22px; }
+.bar div { background: #16a34a; height: 100%; color: #fff; font-size: 13px; line-height: 22px; padding-left: 6px; white-space: nowrap; }
